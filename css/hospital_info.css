@@ -1,0 +1,38 @@
+h1
+{
+	text-align: center;
+}
+h6
+{
+	text-align: center;
+}
+header,footer
+{
+	width: 100%;
+	
+
+}
+body 
+{
+	background: url(../images/bg4.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.intro
+{
+	display: none;
+}
+span 
+{
+	color: blue;
+	text-decoration: underline;
+
+}
+.home_button
+{
+	display: none;
+}
+footer
+{
+	bottom: 0px!important;
+}

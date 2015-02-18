@@ -1,0 +1,150 @@
+{
+    "hospital": [
+        {
+            "NAME": "KIMS Hospital",
+            "LOCATION": "Anayara",
+            "HELPLINE": "0471-2447676",
+            "DOCTORS": [
+                {
+                    "Name": "Christian Bernard",
+                    "Specialisation": "Pediatrician",
+                    "ContactNo": 9876236531
+                },
+                {
+                    "Name": "William Stewart",
+                    "Specialisation": "Cardiologist",
+                    "ContactNo": 4656789459
+                },
+                {
+                    "Name": "Charles Best",
+                    "Specialisation": "Nephrologist",
+                    "ContactNo": 2345678945
+                }
+            ]
+        },
+        {
+            "NAME": "Jubilee Memorial",
+            "LOCATION": "Palayam",
+            "HELPLINE": "0471-2334561",
+            "DOCTORS": [
+                {
+                    "Name": "Loren Cordain",
+                    "Specialisation": "Endocrinologist",
+                    "ContactNo": 9567697895
+                },
+                {
+                    "Name": "Ian Olver",
+                    "Specialisation": "Cardiologist",
+                    "ContactNo": 9078565431
+                },
+                {
+                    "Name": "Fleming john",
+                    "Specialisation": "Dermatologist",
+                    "ContactNo": 6789223412
+                }
+            ]
+        },
+        {
+            "NAME": "SP Fort Hospital",
+            "LOCATION": "EastFort",
+            "HELPLINE": "0471-2450540",
+            "DOCTORS": [
+                {
+                    "Name": "Edward Jenner",
+                    "Specialisation": "Anesthesiologist",
+                    "ContactNo": 1234567890
+                },
+                {
+                    "Name": "George Richards",
+                    "Specialisation": "Pulmonologist",
+                    "ContactNo": 9072334561
+                },
+                {
+                    "Name": "Fleming john",
+                    "Specialisation": "Dermatologist",
+                    "ContactNo": 9048675341
+                }
+            ]
+        },
+        {
+            "NAME": "NIMS Hospital",
+            "LOCATION": "Neyyatinkkara",
+            "HELPLINE": "0471-2223544",
+            "DOCTORS": [
+                {
+                    "Name": "Wilder Penfield",
+                    "Specialisation": "Endocrinologist",
+                    "ContactNo": 9744449636
+                },
+                {
+                    "Name": "Gliff Olver",
+                    "Specialisation": "Opthamologist",
+                    "ContactNo": 8281621165
+                },
+                {
+                    "Name": "George Fernades",
+                    "Specialisation": "Surgeon",
+                    "ContactNo": 8281556665
+                }
+            ]
+        },
+        {
+            "NAME": "Cosmopolitan Hospital",
+            "LOCATION": "Pattom",
+            "HELPLINE": "0471-2521252",
+            "DOCTORS": [
+                {
+                    "Name": "Joseph Ransohoff",
+                    "Specialisation": "Cardiologist",
+                    "ContactNo": 8891177520
+                },
+                {
+                    "Name": "Herbert Needleman",
+                    "Specialisation": "Urologist",
+                    "ContactNo": 2345679011
+                },
+                {
+                    "Name": "Mathew Heistling",
+                    "Specialisation": "Surgeon",
+                    "ContactNo": 1235679811
+                }
+            ]
+        },
+        {
+            "NAME": "TSC Hospital",
+            "LOCATION": "Kazhakootam",
+            "HELPLINE": "0471-2412125",
+            "DOCTORS": [
+                {
+                    "Name": "Gary Aron",
+                    "Specialisation": "Endocrinologist",
+                    "ContactNo": 2389012345
+                },
+                {
+                    "Name": "Joseph Olver",
+                    "Specialisation": "Gerentologist",
+                    "ContactNo": 9998765423
+                },
+                {
+                    "Name": "Charles R Crew",
+                    "Specialisation": "Pulmonologist",
+                    "ContactNo": 4536779011
+                }
+            ]
+        }
+    ],
+    "headers": [
+        {
+            "header1": "NAME",
+            "header2": "LOCATION",
+            "header3": "HELPLINE"
+        }
+    ],
+    "doc_list": [
+       {
+            "head1": "Name",
+            "head2": "Specialisation",
+            "head3": "ContactNo"
+       }
+    ]
+}
