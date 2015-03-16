@@ -1,22 +1,67 @@
+@font-face{
+	font-family: callibrib;
+	src: url(../fonts/calibri/calibrib.ttf);
+}
+@font-face{
+	font-family: callibriit;
+	src: url(../font/calibri/calibrii.ttf);
+}
+@font-face{
+	font-family: callibri;
+	src: url(../font/calibri/calibri.ttf);
+}
+
+
+
 h1
 {
+	
 	text-align: center;
+	font-family:callibriit; 
 }
 h6
 {
-	text-align: center;
-}
-header,footer
-{
-	width: 100%;
 	
+	text-align: center;
+	font-family:callibri; 
+}
 
+header .head_nav,footer
+{
+
+	width: 100%;
+	background: linear-gradient( to right,#FFFFFF,#75D1FF);
+	background: -moz-linear-gradient(right,#FFFFFF,#75D1FF);
+	padding-top: 2px;
+
+
+}
+#icon
+{
+	width: 70px;
+	height: 53px;
 }
 body 
 {
-	background: url(../images/bg4.jpg);
+	background: url(../images/bg88.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
+	height: 50%!important;
+}
+#info_table_wrapper
+
+{
+	width: 70%;
+	margin:0 auto;
+	margin-top: 125px;
+	margin-bottom:143px;
+}
+#doc_table_wrapper
+{
+	width: 70%;
+	margin:0 auto;
+	margin-top: 125px;
+	margin-bottom:165px;
 }
 .intro
 {
@@ -24,15 +69,68 @@ body
 }
 span 
 {
-	color: blue;
+	
 	text-decoration: underline;
+
+}
+tr td:first-child
+{
+	cursor: pointer;
+}
+
+table
+{
+     
+	font-family:callibri; 
 
 }
 .home_button
 {
 	display: none;
 }
+header
+{
+	height: 70px;
+}
 footer
 {
-	bottom: 0px!important;
+	position: fixed;
+	bottom: 0px !important;
+	height: 51px;
+   text-align: center;
+}
+#backButton
+{
+	margin-left: 192px;
+	margin-top: 10px;
+	width: 70px;
+	background-color: #75D1FF;
+	color:#FFFFFF;
+
+}
+.breadcrumb  a 
+{
+    color:#FFFFFF;
+
+}
+thead
+{
+	background-color: #B2B2B2;
+	color: #FFFFFF;
+}
+tbody
+{
+	
+}
+.hosp_image
+{
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+.phoneField
+{
+	border:none;
+	pointer-events:none;
+
 }

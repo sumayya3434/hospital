@@ -16,7 +16,7 @@ $(document).ready( function () {
     $.ajax({
       type: 'GET',
       dataType: "json",
-      url: 'json/hospital_info.json',
+      url: 'json/hosp_info.json',
       data: '',
       success: function(response) {
         jsonData = response.hospital;
@@ -26,7 +26,6 @@ $(document).ready( function () {
       },
       complete: function(response) {
 
-        
       }
     });
      
@@ -34,7 +33,7 @@ $(document).ready( function () {
         $("#doc_table_wrapper").hide(); 
         $("#info_table_wrapper").show();
 
-       
+        
         //for table header
         var row = $("<tr/>");
         $.each(hospListHeader , function(key, value) {
@@ -45,14 +44,18 @@ $(document).ready( function () {
         //for table content
        
         $.each(jsonData, function(i, f) {
-          
-       
-          var tblRow = "<tr><td><img src='images/hosp_logo1.png' class='hosp_image'><span class='link'>" + f.NAME + "</span></td><td>" + f.LOCATION+ "</td><td>" + f.HELPLINE + "</td></tr>";
-       
-          $("#info_table > tbody").append(tblRow);
-        });
-
+          var phne = f.HELPLINE;
       
+          var  tblRow = "<tr><td><img src='images/hosp_logo1.png' class='hosp_image'><span class='link'>" + f.NAME + "</span></td><td>" + f.LOCATION+ "</td><td><input readonly class='phoneField' value="+phne+" ></td></tr>";
+         
+          
+          $("#info_table > tbody").append(tblRow);
+           $(".phoneField").mask("9999-9999999");
+         
+         
+
+        });
+       
        initializeDatatables('info_table');
     }
 
@@ -74,6 +77,7 @@ $(document).ready( function () {
         $("table#doc_table > thead").html('').append(row); 
 
         //for table content
+
         var tblRow ='';
         $("#doc_table").dataTable().fnClearTable();
         $.each(jsonData , function(key,value) {
@@ -82,11 +86,13 @@ $(document).ready( function () {
             $.each(value.DOCTORS, function(k,v) {
                 
                 var table = new $.fn.dataTable.Api( '#doc_table' );
-                table.row.add([v.Name,v.Specialization, v.ContactNo]).draw();
+                table.row.add([v.Name,v.Specialization,v.ContactNo ]).draw();
             });
             
           }
         });
+
+        
 
        initializeDatatables('doc_table');
        

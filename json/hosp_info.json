@@ -3,7 +3,7 @@
         {
             "NAME": "KIMS Hospital",
             "LOCATION": "Anayara",
-            "HELPLINE": "0471-2447676",
+            "HELPLINE": "04712447676",
 
             "DOCTORS": [
                 {
@@ -26,7 +26,7 @@
         {
             "NAME": "Jubilee Memorial",
             "LOCATION": "Palayam",
-            "HELPLINE": "0471-2334561",
+            "HELPLINE": "04712334561",
             "DOCTORS": [
                 {
                     "Name": "Loren Cordain",
@@ -48,7 +48,7 @@
         {
             "NAME": "SP Fort Hospital",
             "LOCATION": "EastFort",
-            "HELPLINE": "0471-2450540",
+            "HELPLINE": "04712450540",
             "DOCTORS": [
                 {
                     "Name": "Edward Jenner",
@@ -70,7 +70,7 @@
         {
             "NAME": "NIMS Hospital",
             "LOCATION": "Neyyatinkkara",
-            "HELPLINE": "0471-2223544",
+            "HELPLINE": "04712223544",
             "DOCTORS": [
                 {
                     "Name": "Wilder Penfield",
@@ -92,7 +92,7 @@
         {
             "NAME": "Cosmopolitan Hospital",
             "LOCATION": "Pattom",
-            "HELPLINE": "0471-2521252",
+            "HELPLINE": "04712521252",
             "DOCTORS": [
                 {
                     "Name": "Joseph Ransohoff",
@@ -114,7 +114,7 @@
         {
             "NAME": "TSC Hospital",
             "LOCATION": "Kazhakootam",
-            "HELPLINE": "0471-2412125",
+            "HELPLINE": "04712412125",
             "DOCTORS": [
                 {
                     "Name": "Gary Aron",
